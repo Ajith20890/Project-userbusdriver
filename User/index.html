@@ -1,0 +1,77 @@
+<html>
+	<head>
+	
+	<script src="cordova.js"></script>
+	<script type="text/javascript" src="responsivevoice.js"></script>
+		<title>User App</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+		<script src="jquery.min.js"></script>
+		<link href="mystyle.css" rel="stylesheet" type="text/css">
+		<link href="index.css" rel="stylesheet" type="text/css">
+		<!-- <script src = "https://maps.googleapis.com/maps/api/js"></script> -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-lgRED7CpmfKEgAIgBupr1Ob4Kqm5RuU"></script>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+  <body >
+  <!-- onload="speak()" -->
+ 
+    <div class="container">
+	<h1 align="center" class="mainname">User App</h1>
+		<h5 align="center" class="deststop">Select Destination</h5><br> 
+		
+		<select id="mySelect" class="form-control" style=" width:300px margin:auto;">
+		</select>&nbsp
+	
+		<p id ="p"></p>
+		<p id ="p1"></p>
+		<p id ="p2"></p>
+		<p id ="p3"></p>
+			<p id ="p7"></p>
+				
+		<br><br>
+	  <div align="center">
+	  <input type="button" class="btn btn-primary  btn-circle btn-xl" id="trig" onclick="speak()" value="GetBus"/>
+	  </div>
+	  </br>
+	 <div class="w-50 p-3"style="float: left; width:49.7% ">
+		<input type="button" class="btn btn-primary   btn-lg btn-block" onclick="Map()" value="Map"/>
+		</div>
+		<div class="w-50 p-3" style="float: right; width:49.7% ">
+		<input type="button" class="btn btn-primary   btn-lg btn-block"  onclick="liststops1()" value="List Stops"/>
+		</div>
+	<br>
+	</br></br>
+	
+	
+	<div class="panel panel-default" id="pan2" >
+		<div class="panel-heading" >
+			<p style = "text-align:center">	Present Co-Ordinates </p>
+		<p id='geolocation' style = "text-align:center"></p>
+		</div>
+		<div class="panel-body">
+		 <p id='serverResponse'></p>
+		</div>
+	</div>
+		<div id="sample" style = "width:100% ; height:100%; " >
+	
+	</div>
+	<p id ="p4"></p>
+	<p id ="p5"></p>
+	
+	<div id="sample12" style = "width:100%; height:100%; "> 
+
+	</div>
+	</br></br>
+	
+	
+	
+		</div>
+		 <script src="index.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+.btn-circle.btn-xl {
+		  width: 200px;
+		  height: 70px;
+		  padding: 5px 5px;
+		  font-size: 24px;
+		  text-align: center;
+		  line-height: 1.33;
+		  border-radius: 35px;
+		  outline: none; 
+			}
+		.btn{
+				 display: block;
+				margin: 0 auto;
+				button: { outline: none; }	
+		}
+		.btn:focus, .btn:active {
+		  outline: none !important;
+		  box-shadow: none !important;
+		}
+		h1.mainname{
+		font-family: Impact, Charcoal, sans-serif;
+		}
+		h5.deststop{
+		font-family: Verdana, Geneva, sans-serif;
+		}
+		#mySelect{
+		font-family:"Arial Black", Gadget, sans-serif;
+		}
+		#pan2{
+		font-family:"Arial Black", Gadget, sans-serif;
+		}
+		.panel-body{
+			font-family:"Arial Black", Gadget, sans-serif;
+		}
+		#serverResponse{
+			font-family:"Arial Black", Gadget, sans-serif;
+			
+		}
+	body {
+  font-family: "Arial Black" ,Georgia, "Times New Roman", Times, serif;
+}

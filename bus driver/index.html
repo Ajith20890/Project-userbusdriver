@@ -1,0 +1,49 @@
+<html>
+	<head>
+	<script src="cordova.js"></script>
+		<title>Driver App</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="jquery.min.js"></script>
+
+		<style>
+		 .btn-circle.btn-xl {
+		  width: 200px;
+		  height: 70px;
+		  padding: 5px 5px;
+		  font-size: 24px;
+		   text-align: center;
+		  line-height: 1.33;
+		  border-radius: 35px;
+			}
+			.btn{
+				 display: block;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="container">
+		<h1 align="center">Driver App</h1>
+		<h5 align="center">Select Bus Number ? </h5><br> 
+	<select id="mySelect" class="form-control" style=" width:300px margin:auto;" onchange="stopProcess();">
+	</select>&nbsp
+		<div id="myr" style="margin:0 auto; width:150px">
+	<select id="myroutes"  class="form-control">
+		<option value="A" selected>A</option>
+		<option value="D">D</option>
+	</select>
+	</div>
+	<br><br>
+					<!-- <input type="button" onclick="resetUUID()" value="ResetUUID"/> -->
+	<button type="button" class="btn btn-success btn-circle btn-xl" onclick="startbus()" id="trig" value="Start">Start</button>
+					<!-- <input type="button" onclick="startbus()" id="trig" value="Start"/> -->
+	<div id="uuid"></div>
+	</br>
+	
+	<p id='geolocation'></p></div>
+    <script src="index.js"></script>
+	
+  </body>
+</html>
